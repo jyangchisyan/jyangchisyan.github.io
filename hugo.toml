@@ -1,0 +1,9 @@
+baseURL = 'jyangchisyan.github.io'
+languageCode = 'zh-tw'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto" # 自動切換深色/淺色模式
+  ShowReadingTime = true # 顯示閱讀時間
+  ShowShareButtons = true # 顯示分享按鈕
