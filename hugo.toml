@@ -7,3 +7,48 @@ theme = 'PaperMod'
   defaultTheme = "auto" # 自動切換深色/淺色模式
   ShowReadingTime = true # 顯示閱讀時間
   ShowShareButtons = true # 顯示分享按鈕
+  ShowToc = true
+  ShowCodeCopyButtons = true
+  
+  [params.homeInfoParams]
+    Title = "Samuel Jiang"
+    Content = "專注於後端開發的工程師。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jyangchisyan"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/samuel-jiang/"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:chyishian.jiang@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "歸檔" 
+    url = "/archives/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "標籤"
+    url = "/tags/"
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    codeFences = true          
+    guessSyntax = true         
+    lineNos = true             
+    noClasses = false          
+    style = "monokai"
