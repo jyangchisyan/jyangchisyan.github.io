@@ -52,3 +52,7 @@ theme = 'PaperMod'
     lineNos = true             
     noClasses = false          
     style = "monokai"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
