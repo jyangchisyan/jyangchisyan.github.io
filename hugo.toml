@@ -1,7 +1,13 @@
 baseURL = 'jyangchisyan.github.io'
 languageCode = 'zh-tw'
-title = 'My New Hugo Site'
+title = "Samuel Jiang's Blog"
+description = "專注於後端開發、系統架構與雲端運算的技術部落格。"
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+# Required for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
   defaultTheme = "auto" # 自動切換深色/淺色模式
@@ -9,6 +15,24 @@ theme = 'PaperMod'
   ShowShareButtons = true # 顯示分享按鈕
   ShowToc = true
   ShowCodeCopyButtons = true
+  ShowFullTextContent = false
+
+
+  # Search Configuration
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+  # Comments Configuration (Giscus)
+  # Please replace with your actual repo details
+  [params.comments]
+    provider = "giscus"
+    giscusConfig = { repo = "YOUR_REPO_ORG/YOUR_REPO_NAME", repoId = "YOUR_REPO_ID", category = "Announcements", categoryId = "YOUR_CATEGORY_ID" }
   
   [params.homeInfoParams]
     Title = "Samuel Jiang"
@@ -44,6 +68,13 @@ theme = 'PaperMod'
     name = "標籤"
     url = "/tags/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 40
+
 
 [markup]
   [markup.highlight]
