@@ -50,6 +50,10 @@ enableRobotsTXT = true
     name = "email"
     url = "mailto:chyishian.jiang@gmail.com"
 
+  [[params.socialIcons]]
+    name = "buymeacoffee"
+    url = "https://buymeacoffee.com/samueljiang"
+
 [menu]
   [[menu.main]]
     identifier = "archives"

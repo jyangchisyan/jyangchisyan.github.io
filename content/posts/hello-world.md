@@ -5,7 +5,7 @@ title = 'Hello World, Hugo 架設'
 tags = ["Hugo", "教學"]
 +++
 
-這是一篇利用gemini實作架設的hugo
+這是一篇實作架設hugo 的 Hello World
 
 ## 第一篇Hugo 文章
 
