@@ -1,0 +1,67 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="74" y1="52" x2="1116" y2="578" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17111F"/>
+      <stop offset="1" stop-color="#17354D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF8A00"/>
+      <stop offset="1" stop-color="#FF4ECD"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="126" r="184" fill="#7C3AED" fill-opacity="0.18"/>
+  <circle cx="152" cy="546" r="160" fill="#06B6D4" fill-opacity="0.14"/>
+
+  <g opacity="0.14">
+    <path d="M0 94H1200" stroke="#F8FAFC"/>
+    <path d="M0 170H1200" stroke="#F8FAFC"/>
+    <path d="M0 246H1200" stroke="#F8FAFC"/>
+    <path d="M0 322H1200" stroke="#F8FAFC"/>
+    <path d="M0 398H1200" stroke="#F8FAFC"/>
+    <path d="M0 474H1200" stroke="#F8FAFC"/>
+    <path d="M0 550H1200" stroke="#F8FAFC"/>
+    <path d="M116 0V630" stroke="#F8FAFC"/>
+    <path d="M244 0V630" stroke="#F8FAFC"/>
+    <path d="M372 0V630" stroke="#F8FAFC"/>
+    <path d="M500 0V630" stroke="#F8FAFC"/>
+    <path d="M628 0V630" stroke="#F8FAFC"/>
+    <path d="M756 0V630" stroke="#F8FAFC"/>
+    <path d="M884 0V630" stroke="#F8FAFC"/>
+    <path d="M1012 0V630" stroke="#F8FAFC"/>
+  </g>
+
+  <rect x="72" y="78" width="670" height="474" rx="28" fill="#0F172A" stroke="#334155"/>
+  <rect x="72" y="78" width="670" height="62" rx="28" fill="#0B1120"/>
+  <circle cx="122" cy="109" r="8" fill="#F97316"/>
+  <circle cx="150" cy="109" r="8" fill="#FACC15"/>
+  <circle cx="178" cy="109" r="8" fill="#34D399"/>
+  <text x="214" y="116" fill="#94A3B8" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">hugo new site my-portfolio</text>
+
+  <text x="120" y="198" fill="#7DD3FC" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28">$ brew install hugo</text>
+  <text x="120" y="248" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28">$ hugo new site my-portfolio</text>
+  <text x="120" y="298" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28">$ git submodule add PaperMod</text>
+  <text x="120" y="348" fill="#34D399" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28">$ hugo server -D</text>
+
+  <rect x="120" y="404" width="260" height="84" rx="18" fill="#0B1220" stroke="#1E293B"/>
+  <text x="146" y="438" fill="#94A3B8" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">stack</text>
+  <text x="146" y="472" fill="#E2E8F0" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">Hugo  +  PaperMod</text>
+
+  <rect x="404" y="404" width="220" height="84" rx="18" fill="#0B1220" stroke="#1E293B"/>
+  <text x="430" y="438" fill="#94A3B8" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">deploy</text>
+  <text x="430" y="472" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">GitHub Pages</text>
+
+  <rect x="772" y="96" width="352" height="438" rx="32" fill="#F8FAFC" fill-opacity="0.08" stroke="#64748B"/>
+  <rect x="806" y="132" width="132" height="38" rx="19" fill="url(#accent)"/>
+  <text x="842" y="157" fill="#0F172A" font-family="Arial, sans-serif" font-size="20" font-weight="700">Hugo Guide</text>
+
+  <text x="806" y="226" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="56" font-weight="700">Hello World</text>
+  <text x="806" y="286" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="34">Hugo 架設</text>
+
+  <text x="806" y="360" fill="#94A3B8" font-family="Arial, sans-serif" font-size="24">從安裝 Hugo 到部署 GitHub Pages</text>
+  <text x="806" y="402" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="26">建立你的第一個技術 blog</text>
+
+  <rect x="806" y="454" width="252" height="46" rx="23" fill="#0F172A" stroke="#334155"/>
+  <text x="832" y="484" fill="#7DD3FC" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">samueljiang.dev/blog</text>
+</svg>
