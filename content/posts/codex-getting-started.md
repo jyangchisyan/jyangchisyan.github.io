@@ -5,6 +5,9 @@ title = 'Codex 教學：從安裝到第一次協作'
 tags = ['Codex', 'AI', '教學', '開發工具']
 description = '介紹如何開始使用 Codex，在終端機中閱讀專案、修改程式、執行驗證，完成第一次 AI 協作開發流程。'
 keywords = ['Codex', 'OpenAI Codex', 'AI coding agent', 'CLI', '教學']
+
+[cover]
+image = '/og/codex-getting-started.png'
 +++
 
 Codex 是一種可以直接在終端機裡協助你閱讀程式、修改檔案、執行命令與整理結果的 AI coding agent。和單純的聊天工具不同，它的價值不只是回答問題，而是能夠進入實際專案脈絡，幫你一起完成工作。
