@@ -3,6 +3,8 @@ date = '2025-12-28T16:54:02+08:00'
 draft = false
 title = 'Hello World, Hugo 架設'
 tags = ["Hugo", "教學"]
+description = '使用 Hugo 與 PaperMod 建立技術部落格，並部署到 GitHub Pages 的入門實作紀錄。'
+keywords = ['Hugo', 'PaperMod', 'GitHub Pages', '靜態網站', '教學']
 +++
 
 這是一篇實作架設hugo 的 Hello World

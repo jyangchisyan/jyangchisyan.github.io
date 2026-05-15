@@ -1,5 +1,6 @@
-baseURL = 'jyangchisyan.github.io'
+baseURL = 'https://jyangchisyan.github.io/'
 languageCode = 'zh-tw'
+defaultContentLanguage = 'zh-tw'
 title = "Samuel Jiang's Blog"
 description = "專注於後端開發、系統架構與雲端運算的技術部落格。"
 theme = 'PaperMod'
@@ -10,6 +11,9 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+  env = "production"
+  description = "專注於後端開發、系統架構與雲端運算的技術部落格。"
+  keywords = ["後端開發", "系統架構", "雲端運算", "OpenBMC", "Python", "Docker"]
   defaultTheme = "auto" # 自動切換深色/淺色模式
   ShowReadingTime = true # 顯示閱讀時間
   ShowShareButtons = true # 顯示分享按鈕
@@ -17,6 +21,21 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   ShowFullTextContent = false
 
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/favicon.svg"
+    safari_pinned_tab = "/favicon.svg"
+    theme_color = "#2d3748"
+    msapplication_TileColor = "#2d3748"
+
+  [params.author]
+    name = "Samuel Jiang"
+    email = "chyishian.jiang@gmail.com"
+
+  [params.schema]
+    publisherType = "Person"
 
   # Search Configuration
   [params.fuseOpts]
@@ -28,12 +47,6 @@ enableRobotsTXT = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
-  # Comments Configuration (Giscus)
-  # Please replace with your actual repo details
-  [params.comments]
-    provider = "giscus"
-    giscusConfig = { repo = "YOUR_REPO_ORG/YOUR_REPO_NAME", repoId = "YOUR_REPO_ID", category = "Announcements", categoryId = "YOUR_CATEGORY_ID" }
-  
   [params.homeInfoParams]
     Title = "Samuel Jiang"
     Content = "專注於後端開發的工程師。"

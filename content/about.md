@@ -2,6 +2,8 @@
 date = '2025-12-28T19:41:29+08:00'
 draft = false
 title = 'About Me'
+description = 'Samuel Jiang 的個人介紹，聚焦後端開發、自動化測試與嵌入式系統經驗。'
+keywords = ['Samuel Jiang', '後端開發', '自動化測試', '嵌入式系統']
 +++
 
 
@@ -17,4 +19,3 @@ title = 'About Me'
 - Python
 - Docker
 - OpenBMC
-
