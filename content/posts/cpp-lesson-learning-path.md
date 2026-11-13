@@ -5,6 +5,9 @@ title = '從基礎語法到完整專題：我的 C++ 56 課離線練習'
 tags = ['C++', '程式設計', '教學', 'GitHub']
 description = '介紹 cpp_lesson 的 56 課 C++ 離線學習路線，從基礎語法、STL 演算法與 lambda，一路練習到多檔案、例外處理及學生資料分析專題。'
 keywords = ['C++ 教學', 'C++ 練習', 'STL', 'lambda', 'GitHub', '程式設計入門']
+
+[cover]
+image = '/og/cpp-lesson-learning-path.png'
 +++
 
 學習 C++ 最容易遇到的問題，不是找不到語法說明，而是看完語法後，不知道下一步該練什麼。為了讓複習過程更有方向，我整理了一套可以完全離線使用的練習專案：[cpp_lesson](https://github.com/jyangchisyan/cpp_lesson)。
